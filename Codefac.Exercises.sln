@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefac.Framework", "Codefac.Framework\Codefac.Framework.csproj", "{9CB67FA8-222A-488C-B4B4-4A929E5CCC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefac.UnitTests", "Codefac.UnitTests\Codefac.UnitTests.csproj", "{1544AC52-28D1-4495-ABB5-99C48C30B86A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CB67FA8-222A-488C-B4B4-4A929E5CCC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB67FA8-222A-488C-B4B4-4A929E5CCC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB67FA8-222A-488C-B4B4-4A929E5CCC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB67FA8-222A-488C-B4B4-4A929E5CCC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1544AC52-28D1-4495-ABB5-99C48C30B86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1544AC52-28D1-4495-ABB5-99C48C30B86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1544AC52-28D1-4495-ABB5-99C48C30B86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1544AC52-28D1-4495-ABB5-99C48C30B86A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
