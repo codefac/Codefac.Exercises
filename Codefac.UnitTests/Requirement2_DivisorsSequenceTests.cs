@@ -9,6 +9,7 @@ namespace Codefac.UnitTests
         [Test]
         [TestCase(60, new[] { 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60 })]
         [TestCase(42, new[] { 1, 2, 3, 6, 7, 14, 21, 42 })]
+        [TestCase(64, new[] { 1, 2, 4, 8, 16, 32, 64 })]
         public void Requirement2_DivisorsSequenceIsCorrectlyGenerated(int integer, int[] sequence)
         {
             Assert.AreEqual(sequence, integer.GenerateDivisorSequence());
