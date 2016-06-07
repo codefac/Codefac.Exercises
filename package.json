@@ -1,0 +1,26 @@
+{
+  "name": "codefac.exercises",
+  "version": "1.0.0",
+  "description": "some simple exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/karma.cmd start karma.conf.js"
+  },
+  "devDependencies": {
+    "jasmine-core": "*",
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-jasmine": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefac/Codefac.Exercises.git"
+  },
+  "author": "harman deol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefac/Codefac.Exercises/issues"
+  },
+  "homepage": "https://github.com/codefac/Codefac.Exercises#readme",
+  "dependencies": {}
+}
