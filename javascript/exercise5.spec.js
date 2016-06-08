@@ -1,7 +1,7 @@
 (function(){
     'use strict';
     
-    describe('startsWith Tests: ', () => {
+    describe('startsWith Tests: ', function() {
         
         var truthySubjects = ["hang", "", "hang the", "han", "hang t"];
         var falsySubjects = ["Hang", "I’ve got a room for rent", "42", "{ first: “Johnny” }"];
@@ -25,7 +25,7 @@
         };            
     });
 
-    describe('endsWith Tests: ', () => {
+    describe('endsWith Tests: ', function() {
         
         var truthySubjects = ["dj", "", "the dj", "e dj", "j"];
         var falsySubjects = ["panic on the streets", "42", "{ first: “Johnny” }"];
