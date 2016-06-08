@@ -6,8 +6,8 @@ Simple exercises. All unit tests are included ( javascript and C#).
 
  - C# Unit Tests
  - Javascript Unit Tests
- - SQL queries
-
+ - [SQL queries](Database1/readme.md)
+ 
 ## Install
 
 clone this repo and open **Codefac.Exercises.sln** in visual studio 2015.
@@ -24,7 +24,7 @@ and then to run javascript unit tests, run following command
 
 ## Dependencies
 
-You must have nodejs installed on your machine to run javascript unit tests. For C# tests, you must have latest nunit adapter extension version ( > 3.0) or should have reasharper installed.
+You must have nodejs installed on your machine to run javascript unit tests. For C# tests, you must have latest nunit adapter extension version ( > 3.0) or should have reasharper installed. 
 
 Package | Version | Dev
 --- |:---:|:---:
