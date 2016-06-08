@@ -1,7 +1,7 @@
 (function(){
     'use strict';
     
-    describe('stripHtml Tests: ', () => {
+    describe('stripHtml Tests: ', function(){
                         /* { rawString: sanitizedString} */
         var subjects = [
                         {"<p>Shoplifters of the World <em>Unite</em>!</p>": "Shoplifters of the World Unite!"},
