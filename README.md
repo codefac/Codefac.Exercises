@@ -1,5 +1,4 @@
-# codefac.exercises
-
+# codefac.exercises [![Build Status](https://travis-ci.org/codefac/Codefac.Exercises.png)](https://travis-ci.org/codefac/Codefac.Exercises)
 Simple exercises. All unit tests are included ( javascript and C#).
 
 ## Features
@@ -45,3 +44,4 @@ harman deol
 ## License
 
  - **ISC** : http://opensource.org/licenses/ISC
+
