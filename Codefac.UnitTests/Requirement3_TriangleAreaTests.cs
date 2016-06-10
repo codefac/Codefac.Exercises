@@ -12,9 +12,11 @@ namespace Codefac.UnitTests
     public class Requirement3_TriangleAreaTests
     {
         [Test]
-        public void Requirement3_ValidTriangleInputsReturnValidArea()
+        [TestCase(6, 3, 4, 5)]
+        [TestCase(1.984313483298443d, 2, 2, 3)]
+        public void Requirement3_ValidTriangleInputsReturnValidArea(double expectedArea, double sideA, double sideB, double sideC)
         {
-            Assert.AreEqual(6, Requirement.GetArea(3, 4, 5));
+            Assert.AreEqual(expectedArea, Requirement.GetArea(sideA,sideB,sideC));
         }
 
         [Test]

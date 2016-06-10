@@ -4,7 +4,7 @@ namespace Codefac.Framework.Requirement3
 {
     public static class Requirement
     {
-        public static double GetArea(int sideA, int sideB, int sideC)
+        public static double GetArea(double sideA, double sideB, double sideC)
         {
             if (sideA <= 0 || sideB <= 0 || sideC <= 0)
             {
@@ -14,7 +14,7 @@ namespace Codefac.Framework.Requirement3
             {
                 throw new InvalidTriangleException();
             }
-            double s = (double)(sideB + sideA + sideC)/2;
+            var s = (sideB + sideA + sideC)/2;
             return Math.Sqrt(s*(s - sideA)*(s - sideB)*(s - sideC));
         }
     }
