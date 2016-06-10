@@ -14,7 +14,7 @@ namespace Codefac.Framework.Requirement3
             {
                 throw new InvalidTriangleException();
             }
-            double s = (sideB + sideA + sideC)/2;
+            double s = (double)(sideB + sideA + sideC)/2;
             return Math.Sqrt(s*(s - sideA)*(s - sideB)*(s - sideC));
         }
     }
